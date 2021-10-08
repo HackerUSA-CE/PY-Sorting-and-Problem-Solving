@@ -7,7 +7,7 @@ def find_pair(test_list, target):
         if sorted_list[left] + sorted_list[right] == target:
             return(sorted_list[left], sorted_list[right])
         
-        elif sorted_list[left] + sorted_list[right] < target:
+        if sorted_list[left] + sorted_list[right] < target:
             left = left + 1
         else: 
             right = right - 1
