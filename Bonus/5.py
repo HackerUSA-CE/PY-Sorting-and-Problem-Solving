@@ -1,5 +1,5 @@
-def find_pair(test_list, target):
-    sorted_list = sorted(test_list)
+def find_pair(lst, target):
+    sorted_list = sorted(lst)
     left = 0
     right = len(sorted_list)-1
 
@@ -14,7 +14,6 @@ def find_pair(test_list, target):
     
     return('no pairs sum to the target')
 
-# sample_list = [ 3, 7, 10, 8]
 sample_list = [ 3, 7, 6, 8]
 print(find_pair(sample_list, 9))
 

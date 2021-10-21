@@ -1,4 +1,4 @@
-test_list = [6, 3, 1, 2]
-test_list.sort()
+lst = [6, 3, 1, 2]
+lst.sort()
  
-print(test_list)
+print(lst)
